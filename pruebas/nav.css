@@ -1,0 +1,149 @@
+:root {
+    --main-color: #78ddfc;
+    --hover-color: #22cbff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+    width: 100vw;
+}
+
+.navigation {
+    /* posición */
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    margin: 2%;
+    z-index: 100;
+
+    /* tamaño */
+    width: 96%;
+    height: 70px;
+
+    /* contenedor */
+    background-color: var(--main-color);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+
+    /* borde debug */
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.logo {
+    /* tamaño */
+    height: 100%;
+    /* borde debug */
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.dropdown {
+    /* tamaño */
+    width: 200px;
+
+    /* contenido */
+    overflow: hidden;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    /* contenedor */
+    background-color: var(--main-color);
+
+    /* borde debug */
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.dropdown:hover {
+    /* tamaño*/
+    width: 200px;
+    height: 300px;
+}
+
+.dropdown li {
+    /* tamaño */
+    width: 100%;
+    height: 50px;
+
+    /* posicion */
+    margin-bottom: 5px;
+
+    /* contenido */
+    text-align: center;
+    transition: .5s;
+    /* borde debug */
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.dropdown li:hover {
+    background-color: var(--hover-color);
+}
+
+.dropdownIcon {
+    /* tamaño */
+    height: 70px;
+    /* posicion */
+    margin: 0px;
+    padding-top: 20px;
+    /* contenido */
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    /* borde debug */
+    border: 1px solid rgb(255, 0, 0);
+}
+
+/* Botón 'Volver Arriba' */
+.returnTop {
+    /* posicion */
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+
+    /* borde debug */
+    border: 1px solid rgb(255, 0, 0);
+
+    /* contenedor */
+    width: 50px;
+    height: 50px;
+    border-radius: 33%;
+    background-color: var(--main-color);
+    transition: .3s;
+
+    /* contenido */
+    padding-top: 2px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.returnTop:hover {
+    background-color: var(--hover-color);
+}
+
+.translateButton {
+    /* borde debug */
+    border: 1px solid rgb(255, 0, 0);
+
+    /* contenedor */
+    height: 100%;
+    border-radius: 33%;
+    background-color: var(--main-color);
+    transition: .3s;
+
+    /* contenido */
+    padding-top: 18px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.translateButton:hover {
+    background-color: var(--hover-color);
+}
