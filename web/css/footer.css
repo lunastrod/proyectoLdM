@@ -1,0 +1,16 @@
+:root{
+    --hover-color: #E3E3FF;;
+}
+
+
+.enlace {
+    text-decoration: none;
+    color: #0300FF;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.enlace:hover {
+    color: var(--hover-color);
+}
