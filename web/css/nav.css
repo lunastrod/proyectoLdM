@@ -122,16 +122,19 @@
     /* contenedor */
     width: 50px;
     height: 50px;
-    border-radius: 33%;
+    border-radius: 50%;
     background-color: var(--main-color);
     transition: .3s;
 
     /* contenido */
-    padding-top: 2px;
     text-align: center;
     font-size: 30px;
     text-decoration: none;
     color: black;
+}
+
+.returnTop img {
+    height: 100%;
 }
 
 .returnTop:hover {
