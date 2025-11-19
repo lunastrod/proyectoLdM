@@ -5,12 +5,7 @@
     --main-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body {
-    margin: 0px;
-    padding: 0px;
-    font-family: var(--main-font);
-    background-color: #9abeff;
-}
+
 
 .navigation {
     /* posición */
@@ -39,7 +34,7 @@ body {
     /* tamaño */
     height: 100%;
     /* borde debug */
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 .title {
@@ -54,7 +49,7 @@ body {
     color: black;
 
     /* borde debug */
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 .dropdown {
@@ -71,7 +66,7 @@ body {
     background-color: var(--main-color);
 
     /* borde debug */
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 .dropdown:hover {
@@ -92,7 +87,7 @@ body {
     text-align: center;
     transition: .5s;
     /* borde debug */
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 .dropdown li:hover {
@@ -110,7 +105,7 @@ body {
     font-weight: bold;
     font-size: 25px;
     /* borde debug */
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 /* Botón 'Volver Arriba' */
@@ -122,7 +117,7 @@ body {
     z-index: 100;
 
     /* borde debug */
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 
     /* contenedor */
     width: 50px;
@@ -145,7 +140,7 @@ body {
 
 .translateButton {
     /* borde debug */
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 
     /* contenedor */
     height: 50px;
