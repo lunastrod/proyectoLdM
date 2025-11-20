@@ -5,19 +5,17 @@
     --main-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-
 .navigation {
     /* posición */
     position: sticky;
     top: 0px;
     right: 0px;
     left: 0px;
-    margin: 2%;
     z-index: 100;
+    margin-top: 20px;
 
     /* tamaño */
-    width: 96%;
+    width: 100%;
     height: 70px;
 
     /* contenedor */
@@ -37,16 +35,26 @@
     /*border: 1px solid black;*/
 }
 
+.logoTitle {
+    display: flex;
+    /* tamaño */
+    width: 500px;
+
+    /* borde debug */
+    /*border: 1px solid black;*/
+}
+
 .title {
     /* tamaño */
     
     /* posicion */
     position: relative;
-    top: -20px;
+    top: -25px;
     /* contenido */
     font-weight: bold;
     font-size: 40px;
     color: black;
+    white-space: nowrap;
 
     /* borde debug */
     /*border: 1px solid black;*/
@@ -71,8 +79,7 @@
 
 .dropdown:hover {
     /* tamaño*/
-    width: 200px;
-    height: 370px;
+    height: fit-content;
 }
 
 .dropdown li {
@@ -84,10 +91,19 @@
     margin-bottom: 5px;
 
     /* contenido */
-    text-align: center;
     transition: .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     /* borde debug */
     /*border: 1px solid black;*/
+}
+
+.dropdown li a {
+    /* contenido */
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
 }
 
 .dropdown li:hover {
