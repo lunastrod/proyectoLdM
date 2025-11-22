@@ -1,11 +1,11 @@
 .formulario {
-    margin: 20px auto;
-    background-color: #6fc1f8;
+    margin: 20px;
+    background-color: #ffffff;
     border-radius: 10px;
-    box-shadow: 0 0 10px 0 rgba(219, 216, 216, 0.5);
+   /* box-shadow: 0 0 10px 0 rgba(219, 216, 216, 0.5);*/
     padding: 30px;
     max-width: 500px;
-    border: 2px solid #E2E8F0;
+    /*border: 2px solid #E2E8F0;*/
 
     resize: none;
 
@@ -22,7 +22,7 @@
     padding: 12px 16px;
     border-radius: 20px;
 
-    background-color: #c4fbff;
+    background-color: #eaeaea;
 }
 .input:hover{
     border-color:#98ffb2 ;

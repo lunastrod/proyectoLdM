@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/Formulario.css">
     <link rel="stylesheet" href="css/principal.css">
+</head>
 
-    <link rel="icon" type="image/png" href="imagenes/rana.png"/>
-
+<body>
     <nav class="navigation">
         <div class="logoTitle">
             <a href="Principal.html"><img src="imagenes/rana.png" alt="logo" class="logo"></img></a>
@@ -31,59 +31,71 @@
         </ul>
     </nav>
     <a href="#top" class="returnTop"><img src="imagenes/flechaArriba.png" alt="ir arriba"></a>
-</head>
 
-<body>
-    <div class="formulario">
-        <h2>Calcula tu prima de seguros en un par de pasos</h2>
-        <form action="submit">
-            <div class="input-name">
-                <label for="nombre"><em>Nombre:</em></label>
-                <input class="input" type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre">
+    <div class="inicio">
+        <div class="promocion">
+            <div>
+                <h1>Seguros de Salud Sanitas</h1>
             </div>
+            <div>
+                <p>
+                    Contrata ahora y consigue tu seguro con 1 año de servicios a domicilio y reembolso de farmacia
+                </p>
+            </div>
+        </div>
 
-            <div class="input-age-sex">
-                <label for="edad"><em>Edad:</em></label>
-                <input class="input" type="number" id="edad" name="edad" min="18" max="100">
 
-                <label for="sexo"><em>Sexo:</em></label>
-                <select class="input" id="sexo" name="sexo">
-                    <option value="">Selecciona una opción</option>
-                    <option value="hombre">Hombre</option>
-                    <option value="mujer">Mujer</option>
-                    <option value="otro">Otro</option>
-                </select>
-            </div>
+        <div class="formulario">
+            <h2>Calcula tu prima de seguros en un par de pasos</h2>
+            <form action="submit">
+                <div class="input-name">
+                    <label for="nombre"><em>Nombre:</em></label>
+                    <input class="input" type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre">
+                </div>
 
-            <div class="input-province">
-                <label for="Provincia"><em>Provincia:</em></label>
-                <select class="input" id="provincia" name="provincia">
-                    <option value="">Selecciona una provincia</option>
-                    <option value="Madrid">Madrid</option>
-                    <option value="Barcelona">Barcelona</option>
-                    <option value="Valencia">Valencia</option>
-                    <option value="Sevilla">Sevilla</option>
-                </select>
-            </div>
+                <div class="input-age-sex">
+                    <label for="edad"><em>Edad:</em></label>
+                    <input class="input" type="number" id="edad" name="edad" min="18" max="100">
 
-            <div class="input-email">
-                <label for="email"><em>Email</em></label>
-                <input class="input" type="email" id="email" name="email" placeholder="Introduce tu email">
-            </div>
+                    <label for="sexo"><em>Sexo:</em></label>
+                    <select class="input" id="sexo" name="sexo">
+                        <option value="">Selecciona una opción</option>
+                        <option value="hombre">Hombre</option>
+                        <option value="mujer">Mujer</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
 
-            <div class="input-phone">
-                <label for="telefono"><em>Telefono:</em></label>
-                <input class="input" type="tel" id="telefono" name="telefono" placeholder="Introduce tu telefono">
-            </div>
+                <div class="input-province">
+                    <label for="Provincia"><em>Provincia:</em></label>
+                    <select class="input" id="provincia" name="provincia">
+                        <option value="">Selecciona una provincia</option>
+                        <option value="Madrid">Madrid</option>
+                        <option value="Barcelona">Barcelona</option>
+                        <option value="Valencia">Valencia</option>
+                        <option value="Sevilla">Sevilla</option>
+                    </select>
+                </div>
 
-            <div class="input-message">
-                <label for="mensaje"><em>Mensaje</em></label>
-                <textarea class="input" id="mensaje" name="mensaje" placeholder="Introduce tu mensaje"></textarea>
-            </div>
-            <div class="input-submit">
-                <input class="input" type="submit" value="Enviar">
-            </div>
-        </form>
+                <div class="input-email">
+                    <label for="email"><em>Email</em></label>
+                    <input class="input" type="email" id="email" name="email" placeholder="Introduce tu email">
+                </div>
+
+                <div class="input-phone">
+                    <label for="telefono"><em>Telefono:</em></label>
+                    <input class="input" type="tel" id="telefono" name="telefono" placeholder="Introduce tu telefono">
+                </div>
+
+                <div class="input-message">
+                    <label for="mensaje"><em>Mensaje</em></label>
+                    <textarea class="input" id="mensaje" name="mensaje" placeholder="Introduce tu mensaje"></textarea>
+                </div>
+                <div class="input-submit">
+                    <input class="input" type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
     </div>
     <!---------------------------------------------------------------------------------------->
 
@@ -125,27 +137,41 @@
                 coberturas que necesites.</p>
         </div>
         <div class="planSeguros">
-            <div>
-                <img src="" alt="">
-            <h1>Seguros con copago</h1>
+            <div class="filas">
+                <div class="planes">
+                    <img src="imagenes/SegurosCopago.png" alt="">
+                    <!--<h2>Seguros con copago</h2>-->
+                </div>
 
-            <img src="" alt="">
-            <h1>Seguros sin copago</h1>
+                <div class="planes">
+                    <img src="imagenes/SeguroSinCopago.png" alt="">
+                    <!--<h2>Seguros sin copago</h2>-->
+                </div>
 
-            <img src="" alt="">
-            <h1>Seguros económicos</h1>
+                <div class="planes">
+                    <img src="imagenes/SegurosEconómicos.png" alt="">
+                    <!--<h2>Seguros económicos</h2>-->
+                </div>
+
             </div>
 
-           <div>
-             <img src="" alt="">
-            <h1>Estudiantes extrangeros</h1>
+            <div class="filas">
+                <div class="planes">
+                    <img src="imagenes/EstudiantesExtranjeros.png" alt="">
+                    <!--<h2>Estudiantes extrangeros</h2>-->
+                </div>
 
-            <img src="" alt="">
-            <h1>Seguro de mascotas</h1>
+                <div class="planes">
+                    <img src="imagenes/SeguroMascotas.png" alt="">
+                    <!--<h2>Seguro de mascotas</h2>-->
+                </div>
 
-            <img src="" alt="">
-            <h1>Seguros dentales</h1>
-           </div>
+                <div class="planes">
+                    <img src="imagenes/SeguroDental.png" alt="">
+                    <!--<h2>Seguros dentales</h2>-->
+                </div>
+
+            </div>
         </div>
     </div>
 
