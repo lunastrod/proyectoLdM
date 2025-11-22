@@ -1,11 +1,12 @@
+
+
 body {
     margin: 0px;
-    padding: 0px;
     font-family: var(--main-font);
     background-color: #ffffff;
 }
 
-.client-card {
+.person-card {
     /* tamaño */
     width: 400px;
     height: 400px;
