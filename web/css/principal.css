@@ -1,0 +1,48 @@
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   /* border: 1px solid black;*/
+}
+
+.tituloPresentacion {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.planes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+
+    
+}
+
+.tiposSeguros{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 280px;
+    width: 900px;
+    margin: 15px;
+    padding: 10px;
+
+    text-align: center;
+    color: black;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tiposSeguros p{
+    color: gray;
+}
+
+.s{
+    margin: 10px;
+}
+
+
