@@ -17,8 +17,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;    
-
-    
 }
 
 .tiposSeguros{
@@ -43,6 +41,17 @@
 
 .s{
     margin: 10px;
+}
+
+
+.planSeguros{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
