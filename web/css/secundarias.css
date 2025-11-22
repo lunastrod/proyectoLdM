@@ -17,8 +17,16 @@ body {
     margin: 20px;
     padding: 4px;
 
+    transition: transform 0.2s ease;
+
+
     /* borde debug */
     /*border: 1px solid black;*/
+}
+
+.person-card:hover {
+    transform: translateY(-10px);
+
 }
 
 .textbox {
