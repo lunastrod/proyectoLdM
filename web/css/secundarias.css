@@ -5,6 +5,8 @@ body {
     background-color: #ffffff;
 }
 
+
+
 .person-card {
     /* tamaño */
     width: 400px;
@@ -18,15 +20,12 @@ body {
     padding: 4px;
 
     transition: transform 0.2s ease;
-
-
     /* borde debug */
     /*border: 1px solid black;*/
 }
 
 .person-card:hover {
     transform: translateY(-10px);
-
 }
 
 .textbox {
@@ -40,11 +39,20 @@ body {
 .textbox h1,h2,h3{
     color: rgb(0, 0, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    text-align: center;
 }
 
 .textbox p{
     color: rgb(77, 77, 77);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.textbox .texto-izquierda{
+    color: rgb(77, 77, 77);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
 }
 
 .lista-iconos{
